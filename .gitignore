@@ -2,3 +2,4 @@
 /var
 .htaccess
 .idea
+app/etc/local.xml
