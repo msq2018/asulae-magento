@@ -1,0 +1,62 @@
+.widget-catalogsale-products-carousel .new-slider{  
+	border:1px solid #ddd;
+	position:relative;
+	width:1000px;
+	padding:20px 30px;
+	margin:10px auto;
+}
+.widget-catalogsale-products-carousel .box-top {
+	overflow:hidden;
+	position:relative; 
+	left:0;
+	float:left;
+	width:986px;
+	height:220px;
+	margin-left:5px;
+}
+.widget-catalogsale-products-carousel .box-top ul {
+	list-style:none;
+	padding:0; 
+	}
+.widget-catalogsale-products-carousel .box-top ul li {  
+	display:block; 
+	float:left;
+	position:relative; 
+	width:220px;
+	margin-right:25px;
+	text-align:center;
+	overflow:hidden;
+}
+.widget-catalogsale-products-carousel #left, #right{ cursor:pointer}
+.widget-catalogsale-products-carousel .box-left,
+.widget-catalogsale-products-carousel .box-right { 
+	position:absolute; 
+	top:84px; 
+	width:21px; 
+	height:35px; 
+	cursor:pointer;
+}
+.widget-catalogsale-products-carousel .box-left {
+	left:0px; 
+	background:#000;
+	}
+.widget-catalogsale-products-carousel .box-right {
+	right:0px;
+	background:#000;
+	}
+
+#slider_list { position: relative;}
+#slider_list  {}
+#slider_list li a {display: block;}
+#slider_list li {width: 180px; min-height: 160px; float: left; position: relative;}
+#slider_list img {max-width: 100%;}
+#slider_list a.slider-sidebar-prev {right: 40px;}
+#slider_list .slider-sidebar-pager {text-align: center; margin-top: -20px; position: relative;}
+#slider_list .slider-sidebar-pager a {font-size: 11px; line-height: 11px; display: inline-block; margin: 0 4px; color: #777777; }
+#slider_list .slider-sidebar-pager a:before {content: "\f10c"; }
+#slider_list .slider-sidebar-pager a.selected,
+#slider_list .slider-sidebar-pager a:hover {color: #a71d92;}
+#slider_list .slider-sidebar-pager a.selected:before,
+#slider_list .slider-sidebar-pager a:hover:before {content: "\f111"; }
+#slider_list .slider-sidebar-pager span {font-size: 0; text-indent: -777px;}
+#slider_list .product-name {margin: 0 0 10px; font-family: 'Roboto',sans-serif; font-size: 14px; line-height: 18px; font-weight: 700; }

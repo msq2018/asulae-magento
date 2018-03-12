@@ -1,0 +1,8 @@
+<div class="link-extra">
+    <a href="<?php echo $this->getUrl('checkout/onepage/') ?>"><?php echo $this->__('Checkout') ?></a>
+    <?php if (Mage::getSingleton('customer/session')->isLoggedIn()==0): ?>
+        <a href="<?php echo $this->getUrl('customer/account/login') ?>"><?php echo $this->__('Log In') ?></a>
+    <?php else: ?>
+        <a href="<?php echo $this->getUrl('customer/account/logout') ?>"><?php echo $this->__('Log Out') ?></a>
+    <?php endif ?>
+</div>
